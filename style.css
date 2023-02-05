@@ -6,7 +6,7 @@ body {
   background-size: cover;
   background-position: center;
   background-color: hsl(225, 100%, 94%);
-  min-height: 100vh;
+  min-height: 85vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,7 +26,8 @@ a {
   justify-content: center;
   flex-direction: column;
   background-color: white;
-  max-width: 25em;
+  max-width: 26em;
+  padding-bottom: 1.875em;
   border-radius: 1.25em;
   overflow: hidden;
 }
