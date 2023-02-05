@@ -6,7 +6,7 @@ body {
   background-size: cover;
   background-position: center;
   background-color: hsl(225, 100%, 94%);
-  min-height: 85vh;
+  min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
