@@ -26,23 +26,23 @@ a {
   justify-content: center;
   flex-direction: column;
   background-color: white;
-  max-width: 26em;
-  padding-bottom: 1.875em;
-  border-radius: 1.25em;
+  max-width: 19rem;
+  padding-bottom: 1.875rem;
+  border-radius: 1.25rem;
   overflow: hidden;
 }
 
 .img {
   overflow: hidden;
-  padding: 0em;
-  margin: 0em;
+  padding: 0rem;
+  margin: 0rem;
 }
 
 .summary {
   color: hsl(223, 47%, 23%);
   font-family: "Red Hat Display", sans-serif;
   font-weight: 900;
-  margin-top: 1.875em;
+  margin-top: 1.875rem;
 }
 
 .description {
@@ -50,23 +50,23 @@ a {
   color: hsl(224, 23%, 55%);
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1rem;
   padding-left: 15%;
   padding-right: 10%;
-  margin: 0em 0em 0em 0em;
-  word-spacing: 0.125em;
+  margin: 0rem 0rem 0rem 0rem;
+  word-spacing: 0.125rem;
 }
 
 .plan {
   display: grid;
   background-color: hsl(230, 75%, 98%);
   grid-template-columns: auto 2.5fr 1.5fr;
-  width: 70%;
-  margin: 1.4em 1em 1.5em 1.3em;
-  padding: 0.9375em 0.9375em 1.25em 1em;
+  width: 78%;
+  margin: 1.4rem 1rem 1.5rem 1.3rem;
+  padding: 0.9375rem 0.9375rem 1.25rem 1rem;
   align-items: center;
-  border-radius: 0.625em;
-  column-gap: 0.625em;
+  border-radius: 0.625rem;
+  column-gap: 0.625rem;
 }
 
 .img_music {
@@ -81,24 +81,24 @@ a {
   font-weight: 900;
   grid-row: 1;
   grid-column: 2;
-  margin: 0em 0em 1.25em 0em;
+  margin: 0rem 0rem 1.25rem 0rem;
 }
 
 .price {
   color: hsl(224, 23%, 55%);
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1rem;
   grid-column: 2;
   grid-row: 1;
-  margin: 1.875em 0em 0em 0em;
+  margin: 1.875rem 0rem 0rem 0rem;
 }
 
 .change {
   color: hsl(245, 75%, 52%);
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
-  font-size: 1em;
+  font-size: 1rem;
   text-decoration: underline;
   grid-column: 3;
   grid-row: 1;
@@ -109,10 +109,10 @@ a {
 }
 
 .payment {
-  border-radius: 0.625em;
+  border-radius: 0.625rem;
   background-color: hsl(245, 75%, 52%);
   border: none;
-  padding: 0.8em 6.375em 0.8em 6.375em;
+  padding: 0.8em 3.375em 0.8em 3.375em;
   color: white;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
@@ -128,8 +128,8 @@ a {
   color: hsl(224, 23%, 55%);
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
-  font-size: 1em;
-  margin-top: 2em;
+  font-size: 1rem;
+  margin-top: 1.5rem;
 }
 
 .cancel:hover {
@@ -137,41 +137,14 @@ a {
   color: hsl(223, 47%, 23%);
 }
 
-@media (max-width: 375px) {
+@media (min-width: 26.5625rem) {
   .card {
-    max-width: 22em;
-    padding-bottom: 0.3125em;
-  }
-  .plan {
-    width: 78%;
+    max-width: 26rem;
   }
   .payment {
-    padding: 0.8em 5.375em 0.8em 5.375em;
+    padding: 0.8rem 6.375rem 0.8rem 6.375rem;
   }
   .cancel {
-    margin-top: 1.5em;
-  }
-}
-@media (max-width: 350px) {
-  .card {
-    max-width: 20em;
-  }
-  .payment {
-    padding: 0.8em 4.375em 0.8em 4.375em;
-  }
-  .cancel {
-    margin-top: 1.5em;
-  }
-}
-
-@media (max-width: 320px) {
-  .card {
-    max-width: 19em;
-  }
-  .payment {
-    padding: 0.8em 3.375em 0.8em 3.375em;
-  }
-  .cancel {
-    margin-top: 1.5em;
+    margin-top: 2rem;
   }
 }
