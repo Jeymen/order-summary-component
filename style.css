@@ -109,31 +109,17 @@ a {
 }
 
 .payment {
+  border-radius: 0.625em;
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  padding: 0.8em 6.375em 0.8em 6.375em;
   color: white;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
   font-size: 1em;
-  margin: 0.625em;
 }
 
-.payment-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.payment-button {
-  border-radius: 0.625em;
-  background-color: hsl(245, 75%, 52%);
-  border: none;
-  padding-left: 6.375em;
-  padding-right: 6.375em;
-  padding-bottom: 0.4em;
-  padding-top: 0.4em;
-}
-
-.payment-button:hover {
+.payment:hover {
   background-color: hsl(245, 83%, 68%);
   cursor: pointer;
 }
@@ -159,8 +145,8 @@ a {
   .plan {
     width: 78%;
   }
-  .payment-button {
-    padding: 0.4em 5.375em 0.4em 5.375em;
+  .payment {
+    padding: 0.8em 5.375em 0.8em 5.375em;
   }
   .cancel {
     margin-top: 1.5em;
@@ -170,9 +156,22 @@ a {
   .card {
     max-width: 20em;
   }
+  .payment {
+    padding: 0.8em 4.375em 0.8em 4.375em;
+  }
+  .cancel {
+    margin-top: 1.5em;
+  }
 }
+
 @media (max-width: 320px) {
   .card {
     max-width: 19em;
+  }
+  .payment {
+    padding: 0.8em 3.375em 0.8em 3.375em;
+  }
+  .cancel {
+    margin-top: 1.5em;
   }
 }
