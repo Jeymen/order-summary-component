@@ -30,6 +30,7 @@ a {
   padding-bottom: 1.875rem;
   border-radius: 1.25rem;
   overflow: hidden;
+  gap: 1.5rem;
 }
 
 .img {
@@ -42,11 +43,11 @@ a {
   color: hsl(223, 47%, 23%);
   font-family: "Red Hat Display", sans-serif;
   font-weight: 900;
-  margin-top: 1.875rem;
+  /* margin-top: 1.875rem; */
+  margin: 0rem 0rem 0rem 0rem;
 }
 
 .description {
-  display: flex;
   color: hsl(224, 23%, 55%);
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
@@ -62,17 +63,10 @@ a {
   background-color: hsl(230, 75%, 98%);
   grid-template-columns: auto 2.5fr 1.5fr;
   width: 78%;
-  margin: 1.4rem 1rem 1.5rem 1.3rem;
   padding: 0.9375rem 0.9375rem 1.25rem 1rem;
   align-items: center;
   border-radius: 0.625rem;
   column-gap: 0.625rem;
-}
-
-.img_music {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .annual {
@@ -98,10 +92,11 @@ a {
   color: hsl(245, 75%, 52%);
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1em;
   text-decoration: underline;
   grid-column: 3;
   grid-row: 1;
+  justify-self: end;
 }
 
 .change:hover {
@@ -128,8 +123,7 @@ a {
   color: hsl(224, 23%, 55%);
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
-  font-size: 1rem;
-  margin-top: 1.5rem;
+  font-size: 1em;
 }
 
 .cancel:hover {
@@ -140,11 +134,9 @@ a {
 @media (min-width: 26.5625rem) {
   .card {
     max-width: 26rem;
+    gap: 2rem;
   }
   .payment {
     padding: 0.8rem 6.375rem 0.8rem 6.375rem;
-  }
-  .cancel {
-    margin-top: 2rem;
   }
 }
