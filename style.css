@@ -168,3 +168,13 @@ a {
     margin-top: 1.5em;
   }
 }
+@media (max-width: 350px) {
+  .card {
+    max-width: 20em;
+  }
+}
+@media (max-width: 320px) {
+  .card {
+    max-width: 19em;
+  }
+}
